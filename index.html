@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAFE | Minha IA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topo">
+      <div class="logo">mafe <span>✿</span></div>
+      <p>SUA COMPANHEIRA DE IA</p>
+      <span class="status">● Pronta para conversar</span>
+    </header>
+
+    <section class="boas-vindas" id="boas-vindas">
+      <div class="avatar">M</div>
+      <h1>Oi! Eu sou a MAFE 💗</h1>
+      <p>Seu espaço para conversar, aprender e criar.</p>
+    </section>
+
+    <section id="conversa" class="conversa" aria-live="polite"></section>
+
+    <form id="form-chat" class="entrada">
+      <textarea
+        id="mensagem"
+        placeholder="Escreva para a MAFE..."
+        rows="1"
+        required
+      ></textarea>
+      <button id="enviar" type="submit" aria-label="Enviar mensagem">➤</button>
+    </form>
+
+    <footer>Feito com carinho ♡</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
